@@ -23,7 +23,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📄 Plataforma de búsqueda y analítica de PDFs")
+st.title("📄 Plataforma de búsqueda y analítica de PDFs - priscilita")
 st.markdown(f"**Usuario:** {USER}")
 st.markdown("---")
 
