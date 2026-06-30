@@ -18,7 +18,7 @@ USER = os.environ.get("USER", "Priscila Rojas")
 # CONFIGURACIÓN DE LA PÁGINA
 # ============================================================
 st.set_page_config(
-    page_title="Buscador de PDFs",
+    page_title="Buscador de PDFs :)",
     page_icon="📄",
     layout="wide"
 )
