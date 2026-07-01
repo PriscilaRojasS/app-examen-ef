@@ -45,7 +45,7 @@ def get_gemini():
         st.error("❌ GEMINI_API_KEY no configurada")
         st.stop()
     genai.configure(api_key=GEMINI_API_KEY)
-    rreturn genai.GenerativeModel("gemini-pro")
+    return genai.GenerativeModel("gemini-pro")
 
 # ============================================================
 # CONFIGURAR COHERE
