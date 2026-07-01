@@ -17,7 +17,7 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 USER = os.getenv("USER", "")
 
 if not GOOGLE_API_KEY or not MONGODB_URI:
-    st.error("❌ Faltan GOOGLE_API_KEY o MONGODB_URI en secretss")
+    st.error("❌ Faltan GOOGLE_API_KEY o MONGODB_URI en secrets")
     st.stop()
 
 gemini_client = genai.Client(api_key=GOOGLE_API_KEY)
@@ -222,3 +222,4 @@ for msg in st.session_state.historial:
         st.chat_message("user").write(msg["texto"])
     else:
         st.chat_message("assistant").write(msg["texto"])
+
